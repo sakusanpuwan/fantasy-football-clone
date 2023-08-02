@@ -1,0 +1,48 @@
+
+
+.player-card{
+    margin-left: 20vw;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,16,223,1) 100%);
+    width: 60vw;
+    height: 52vh;
+    border-radius: 25px;
+    /* border-style: solid; */
+}
+
+.player-card-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border-style: solid;
+    border-color: green; */
+    min-width: 30vw
+}
+
+.player-card-info{
+    display: flex;
+    justify-content: flex-start;
+    /* border-style: solid; */
+
+}
+
+.player-card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-around;
+    min-width: 10vw;
+    /* border-style: solid;
+    border-color: black; */
+}
+
+.player-card-stats{
+    display: flex;
+    justify-content: space-around;
+    /* border-style: solid;
+    border-color: blue; */
+    width: 30vw;
+}
