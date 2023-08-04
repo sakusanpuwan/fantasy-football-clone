@@ -1,0 +1,16 @@
+.super-app-theme--header{
+    margin-left: 0.4vw;
+}
+
+.carousel{
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+}
+
+.table-container{
+    padding-top: 3vh;
+}
+
+.table{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,16,223,1) 100%);
+}

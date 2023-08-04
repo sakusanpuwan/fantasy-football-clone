@@ -2,6 +2,8 @@
   text-align: center;
   background-color: rgb(24, 26, 27);
   color: aliceblue;
+  overflow: hidden;
+  overflow-y: hidden;
 }
 
 *{

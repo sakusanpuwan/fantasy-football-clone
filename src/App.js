@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
       <img src={hero} style={{ marginTop : 10, height: 120 }} alt='hero'></img>
 
-      <Navbar className='navbar' isBordered={useTheme()} isCompact variant={"floating"} disableShadow={true} disableBlur={false} 
+      <Navbar className='navbar' isBordered={useTheme()} isCompact variant={"static"} disableShadow={true} disableBlur={false}
               css={{$$navbarBlurBackgroundColor: "linear-gradient(90deg, rgba(28,30,31,1) 0%, rgba(133,30,122,1) 50%, rgba(28,30,31,1) 100%)",background: "rgb(24, 26, 27)",marginTop:'-4vh'}}>
         <Navbar.Brand>
           <img src={logo} height = '100vh' style={{ marginTop : 50 }} alt='pl-logo'></img>
@@ -41,12 +41,6 @@ function App() {
             </Navbar.Item>
         </Navbar.Content>
       </Navbar> 
-
-      {/* <ul className='navbar'>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/players">Players</Link></li>
-        <li><Link to="/teams">Teams</Link></li>
-      </ul> */}
 
       <Routes>
         <Route path="/" exact element={<Home/>} />
