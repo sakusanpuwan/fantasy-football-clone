@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import Players from './components/Players';
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
       <img src={hero} style={{ marginTop : 10, height: 120 }} alt='hero'></img>
 
       <Navbar className='navbar' isBordered={useTheme()} isCompact variant={"static"} disableShadow={true} disableBlur={false}
@@ -43,12 +43,12 @@ function App() {
       </Navbar> 
 
       <Routes>
-        <Route path="/fantasy-football-clone/" exact element={<Home/>} />
+        <Route path="/fantasy-football-clone" exact element={<Home/>} />
         <Route path="/fantasy-football-clone/players" element={<Players/>} />
         <Route path="/fantasy-football-clone/teams" element={<Teams/>} />
       </Routes>
 
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
