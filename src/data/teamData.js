@@ -1,4 +1,4 @@
-const teamData = [
+const teamFPLData = [
     {
       "code": 3,
       "draw": 0,
@@ -461,7 +461,7 @@ const teamData = [
     }
 ]
 
-const teamOverview = {
+const teamOverviewData = {
   "filters": {
       "season": "2022"
   },
@@ -1662,4 +1662,9 @@ const teamOverview = {
   ]
 }
 
-export default teamData;
+const defaultExport = {
+    teamFPLData,
+    teamOverviewData
+  };
+  
+  export default defaultExport;
