@@ -1,5 +1,4 @@
 import './PlayerCard.css';
-import '../data/teamData'
 import teamData from '../data/teamData';
 
 const PlayerCard = ({player}) => {
@@ -18,7 +17,7 @@ const PlayerCard = ({player}) => {
     }
 
     const getTeamName = (team) => {
-        const teamObject = teamData.find((item) => item.id === team);
+        const teamObject = teamData.teamFPLData.find((item) => item.id === team);
         return teamObject.name;
     }
 
