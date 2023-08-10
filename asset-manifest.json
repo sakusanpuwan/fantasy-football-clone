@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/fantasy-football-clone/static/css/main.42133d3d.css",
-    "main.js": "/fantasy-football-clone/static/js/main.12c58e96.js",
+    "main.js": "/fantasy-football-clone/static/js/main.1a4f6a2c.js",
     "static/js/787.f7939315.chunk.js": "/fantasy-football-clone/static/js/787.f7939315.chunk.js",
     "static/media/video.mp4": "/fantasy-football-clone/static/media/video.aa26b87dacb066adfed5.mp4",
     "static/media/hero.png": "/fantasy-football-clone/static/media/hero.022231ee1e4f2b4ba24e.png",
     "static/media/pl-main-logo.png": "/fantasy-football-clone/static/media/pl-main-logo.4ea706b738cc31e586cf.png",
     "index.html": "/fantasy-football-clone/index.html",
     "main.42133d3d.css.map": "/fantasy-football-clone/static/css/main.42133d3d.css.map",
-    "main.12c58e96.js.map": "/fantasy-football-clone/static/js/main.12c58e96.js.map",
+    "main.1a4f6a2c.js.map": "/fantasy-football-clone/static/js/main.1a4f6a2c.js.map",
     "787.f7939315.chunk.js.map": "/fantasy-football-clone/static/js/787.f7939315.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42133d3d.css",
-    "static/js/main.12c58e96.js"
+    "static/js/main.1a4f6a2c.js"
   ]
 }
