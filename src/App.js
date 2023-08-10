@@ -24,9 +24,9 @@ function App() {
           <h1 b color="inherit" hideIn="xs" style={{ marginLeft : 20}} >Fantasy</h1>
         </Navbar.Brand>
         <Navbar.Content enableCursorHighlight activeColor={"secondary"} variant={"highlight-solid"} hideIn={"xs"}>
-          <Navbar.Link href="/fantasy-football-clone">Home</Navbar.Link>
-          <Navbar.Link href="/fantasy-football-clone/players">Players</Navbar.Link>
-          <Navbar.Link href="/fantasy-football-clone/teams">Teams</Navbar.Link>
+          <Navbar.Link href="/">Home</Navbar.Link>
+          <Navbar.Link href="/players">Players</Navbar.Link>
+          <Navbar.Link href="/teams">Teams</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content enableCursorHighlight activeColor={"secondary"} variant={"highlight-solid"} hideIn={"xs"}>
           <Navbar.Item >
@@ -43,9 +43,9 @@ function App() {
       </Navbar> 
 
       <Routes>
-        <Route path="/fantasy-football-clone" exact element={<Home/>} />
-        <Route path="/fantasy-football-clone/players" element={<Players/>} />
-        <Route path="/fantasy-football-clone/teams" element={<Teams/>} />
+        <Route path="/" exact element={<Home/>} />
+        <Route path="/players" element={<Players/>} />
+        <Route path="/teams" element={<Teams/>} />
       </Routes>
 
       </HashRouter>
