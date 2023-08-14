@@ -14,7 +14,6 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter basename='/fantasy-football-clone'>
       <img src={hero} style={{ marginTop : 10, height: 120 }} alt='hero'></img>
 
       <Navbar className='navbar' isBordered={useTheme()} isCompact variant={"static"} disableShadow={true} disableBlur={false}
@@ -24,7 +23,7 @@ function App() {
           <h1 b color="inherit" hideIn="xs" style={{ marginLeft : 20}} >Fantasy</h1>
         </Navbar.Brand>
         <Navbar.Content enableCursorHighlight activeColor={"secondary"} variant={"highlight-solid"} hideIn={"xs"}>
-          <Navbar.Link href="/">Home</Navbar.Link>
+          <Navbar.Link href="/fantasy-football-clone">Home</Navbar.Link>
           <Navbar.Link href="players">Players</Navbar.Link>
           <Navbar.Link href="/teams">Teams</Navbar.Link>
         </Navbar.Content>
@@ -43,12 +42,10 @@ function App() {
       </Navbar> 
 
       <Routes>
-        <Route path="/" exact element={<Home/>} />
+        <Route exact path="/fantasy-football-clone"  element={<Home/>} />
         <Route path="/players" element={<Players/>} />
         <Route path="/teams" element={<Teams/>} />
       </Routes>
-
-      </HashRouter>
     </div>
   );
 }
